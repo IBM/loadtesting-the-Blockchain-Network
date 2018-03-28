@@ -1,6 +1,6 @@
 # Load testing the Blockchain Network
 
-This pattern is continuation of the [Controlling flow of request to blockchain network using Redis and RabbitMQ cluster](https://github.com/IBM/controlling-flow-ofRequests-toBlockchain-using-Redis-and-RabbitMQ#controlling-flow-of-request-to-blockchain-network-using-redis-and-rabbitmq-cluster). In this pattern, we are going run java programs to load test our blockchain network.
+This pattern is continuation of the [Controlling flow of request to blockchain network using Redis and RabbitMQ cluster](https://github.com/IBM/controlling-flow-ofRequests-toBlockchain-using-Redis-and-RabbitMQ#controlling-flow-of-request-to-blockchain-network-using-redis-and-rabbitmq-cluster). In this pattern, we are going run java programs to load test our blockchain network i.e. to send request to blockchain network and to check for results of request execution. MongoDb is used to keep track of statistics for the load testing.
 
 ## Included Components
 
@@ -51,7 +51,7 @@ For eg:
 docker-compose -p "fitcoin" up -d --scale fitcoin-backend=3
 ```
 
->Note: To view the results you can download robomongo/ Robo 3T.
+>Note: To view the results you can download robomongo/ Robo 3T. Currently, ExecutionApp is configured to send enroll request for user types, query request for user state and invoke request for generating fitcoins which can be modified according to the requirements. 
 
 ## Additional Resources
 
