@@ -1,3 +1,8 @@
+
+# WARNING: This repository is no longer maintained :warning:
+
+> This repository will not be updated. The repository will be kept available in read-only mode.
+
 # Load testing the Blockchain Network
 
 This pattern is continuation of the [Leveraging cache and MessagingQueue to scale Blockchain Network ](https://github.com/IBM/Leveraging-cache-and-MessagingQueue-to-scale-BlockchainNetwork#leveraging-the-cache-and-messaging-queue-to-scale-a-blockchain-network). In this pattern, we are going run java programs to load test our blockchain network i.e. to send request to blockchain network and to check for results of request execution. MongoDb is used to keep track of statistics for the load testing.
